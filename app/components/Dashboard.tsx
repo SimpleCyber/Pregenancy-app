@@ -34,7 +34,7 @@ export default function Dashboard({ user }: DashboardProps) {
       {/* Mobile Container Application Shell */}
       <div className="w-full max-w-md bg-white min-h-screen relative shadow-2xl flex flex-col">
         {/* Header Section */}
-        <div className="px-6 pt-12 pb-6">
+        <div className="px-6 pt-12 pb-6 bg-white">
           <div className="flex justify-between items-start mb-8">
             <span className="text-gray-500 text-sm font-medium">
               {dateString}
