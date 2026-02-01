@@ -12,7 +12,7 @@ export default function BottomNav() {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <div className="absolute bottom-0 left-0 w-full bg-white border-t border-gray-100 py-4 px-8 flex justify-between items-center pb-8 z-20">
+    <div className="fixed bottom-0 left-0 right-0 w-full max-w-md mx-auto bg-white border-t border-gray-100 py-4 px-8 flex justify-between items-center pb-8 z-50">
       <Link
         href="/"
         className={`flex flex-col items-center gap-1 transition-colors ${isActive("/") ? "text-black" : "text-gray-400 hover:text-gray-900"}`}
