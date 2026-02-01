@@ -10,6 +10,7 @@ const withPWA = withPWAInit({
 });
 
 const nextConfig: NextConfig = {
+  turbopack: {}, // Silence webpack config warning from next-pwa
   images: {
     remotePatterns: [
       {
